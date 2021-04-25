@@ -170,6 +170,366 @@ bs2_default_padded_checksummed_asm\fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\build
 .PHONY : bs2_default_padded_checksummed_asm\fast
 
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.obj: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.obj
+
+# target to build an object file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.i: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.i
+
+# target to preprocess a source file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.i
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.s: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.s
+
+# target to generate assembly for a file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.s
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.obj: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.obj
+
+# target to build an object file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.i: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.i
+
+# target to preprocess a source file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.i
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.s: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.s
+
+# target to generate assembly for a file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.s
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.obj: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.obj
+
+# target to build an object file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.i: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.i
+
+# target to preprocess a source file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.i
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.s: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.s
+
+# target to generate assembly for a file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.s
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.obj: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.obj
+
+# target to build an object file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.i: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.i
+
+# target to preprocess a source file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.i
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.s: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.s
+
+# target to generate assembly for a file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.s
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.obj: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.obj
+
+# target to build an object file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.i: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.i
+
+# target to preprocess a source file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.i
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.s: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.s
+
+# target to generate assembly for a file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.s
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.obj: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.obj
+
+# target to build an object file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.i: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.i
+
+# target to preprocess a source file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.i
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.s: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.s
+
+# target to generate assembly for a file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.s
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.obj: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.obj
+
+# target to build an object file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.obj
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.i: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.i
+
+# target to preprocess a source file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.i
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.s: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.s
+
+# target to generate assembly for a file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.s
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.obj: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.obj
+
+# target to build an object file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.i: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.i
+
+# target to preprocess a source file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.i
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.s: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.s
+
+# target to generate assembly for a file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.s
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.obj: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.obj
+
+# target to build an object file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.i: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.i
+
+# target to preprocess a source file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.i
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.s: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.s
+
+# target to generate assembly for a file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.s
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.obj: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.obj
+
+# target to build an object file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.i: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.i
+
+# target to preprocess a source file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.i
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.s: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.s
+
+# target to generate assembly for a file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.s
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\device\usbd.obj: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\device\usbd.obj
+
+# target to build an object file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.obj
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\device\usbd.i: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\device\usbd.i
+
+# target to preprocess a source file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.i
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\device\usbd.s: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\device\usbd.s
+
+# target to generate assembly for a file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.s
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.obj: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.obj
+
+# target to build an object file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.i: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.i
+
+# target to preprocess a source file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.i
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.s: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.s
+
+# target to generate assembly for a file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.s
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.obj: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.obj
+
+# target to build an object file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.i: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.i
+
+# target to preprocess a source file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.i
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.s: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.s
+
+# target to generate assembly for a file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.s
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.obj: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.obj
+
+# target to build an object file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.i: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.i
+
+# target to preprocess a source file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.i
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.s: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.s
+
+# target to generate assembly for a file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.s
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\tusb.obj: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\tusb.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\tusb.obj
+
+# target to build an object file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\tusb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\tusb.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\tusb.c.obj
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\tusb.i: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\tusb.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\tusb.i
+
+# target to preprocess a source file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\tusb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\tusb.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\tusb.c.i
+
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\tusb.s: C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\tusb.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\tusb.s
+
+# target to generate assembly for a file
+C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\tusb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\tusb.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\tusb.c.s
+
 C_\Users\daven\Documents\Pico\pico-sdk\src\common\pico_sync\critical_section.obj: C_\Users\daven\Documents\Pico\pico-sdk\src\common\pico_sync\critical_section.c.obj
 .PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\common\pico_sync\critical_section.obj
 
@@ -385,6 +745,30 @@ C_\Users\daven\Documents\Pico\pico-sdk\src\common\pico_util\queue.s: C_\Users\da
 C_\Users\daven\Documents\Pico\pico-sdk\src\common\pico_util\queue.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\common\pico_util\queue.c.s
 .PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\common\pico_util\queue.c.s
+
+C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.obj: C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.obj
+
+# target to build an object file
+C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj
+
+C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.i: C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.i
+
+# target to preprocess a source file
+C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.i
+
+C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.s: C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.s
+
+# target to generate assembly for a file
+C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.s
 
 C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_claim\claim.obj: C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj
 .PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_claim\claim.obj
@@ -770,6 +1154,30 @@ C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj
 .PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj
 
+C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.obj: C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.obj
+
+# target to build an object file
+C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj
+
+C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.i: C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.i
+
+# target to preprocess a source file
+C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.i
+
+C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.s: C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.s
+
+# target to generate assembly for a file
+C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.s
+
 C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.obj: C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj
 .PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.obj
 
@@ -1026,29 +1434,77 @@ C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.s
 .PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.s
 
-C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.obj: C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj
-.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.obj
+C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.obj: C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.obj
 
 # target to build an object file
-C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj
-.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj
+C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj
 
-C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.i: C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.i
-.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.i
+C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.i: C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.i
 
 # target to preprocess a source file
-C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.i
-.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.i
+C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.i
 
-C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.s: C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.s
-.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.s
+C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.s: C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.s
 
 # target to generate assembly for a file
-C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.s
-.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.s
+C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.s
+
+C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.obj: C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.obj
+
+# target to build an object file
+C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj
+
+C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.i: C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.i
+
+# target to preprocess a source file
+C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.i
+
+C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.s: C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.s
+
+# target to generate assembly for a file
+C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.s
+
+C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.obj: C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.obj
+
+# target to build an object file
+C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj
+
+C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.i: C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.i
+
+# target to preprocess a source file
+C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.i
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.i
+
+C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.s: C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.s
+
+# target to generate assembly for a file
+C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watering_system.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.s
+.PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.s
 
 C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.obj: C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj
 .PHONY : C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.obj
@@ -1111,6 +1567,51 @@ help:
 	@echo ... bs2_default_padded_checksummed_asm
 	@echo ... bs2_default
 	@echo ... watering_system
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.obj
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.i
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.s
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/device/usbd.obj
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/device/usbd.i
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/device/usbd.s
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/tusb.obj
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/tusb.i
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/tusb.s
 	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_sync/critical_section.obj
 	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_sync/critical_section.i
 	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_sync/critical_section.s
@@ -1138,6 +1639,9 @@ help:
 	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_util/queue.obj
 	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_util/queue.i
 	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_util/queue.s
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.obj
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.i
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.s
 	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj
 	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.i
 	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.s
@@ -1186,6 +1690,9 @@ help:
 	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_double/double_math.i
 	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_double/double_math.s
 	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s
 	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj
 	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj
 	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i
@@ -1218,9 +1725,15 @@ help:
 	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj
 	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i
 	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s
-	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj
-	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i
-	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i
+	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s
 	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj
 	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
 	@echo ... C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s

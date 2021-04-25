@@ -24,11 +24,11 @@ add_executable(watering_system watering_system.c )
 pico_set_program_name(watering_system "watering_system")
 pico_set_program_version(watering_system "0.1")
 
-pico_enable_stdio_uart(watering_system 1)
-pico_enable_stdio_usb(watering_system 0)
+pico_enable_stdio_uart(watering_system 0)
+pico_enable_stdio_usb(watering_system 1)
 
 # Add the standard library to the build
-target_link_libraries(watering_system pico_stdlib)
+target_link_libraries(watering_system pico_stdlib hardware_adc)
 
 pico_add_extra_outputs(watering_system)
 
