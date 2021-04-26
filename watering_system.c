@@ -2,28 +2,26 @@
 #include "pico/stdlib.h"
 #include "hardware/gpio.h"
 
-//global variables
-#define QTY_HYGROS 2
-#define QTY_RELAYS 2
-#define QTY_ZONES 2
+////////GLOBAL VARIABLES///////////////
+#define QTY_ZONES 2 //NOTE: relay and hygrometer count must be equal to zone quantity
 
-//pin assignments
+//power pin assignments
 #define HYGRO_POWER_PIN 2
 #define PUMP_POWER_PIN 20
+//hygro pin assignments
 #define DIGITAL_HYGRO_PIN1 16
 #define DIGITAL_HYGRO_PIN2 17
-
+//solenoid pin assignments
 #define RELAY1 18
 #define RELAY2 19
 
 //array of hygrometers
-int hygrometers[QTY_HYGROS] = {DIGITAL_HYGRO_PIN1, DIGITAL_HYGRO_PIN2};
+int hygrometers[QTY_ZONES] = {DIGITAL_HYGRO_PIN1, DIGITAL_HYGRO_PIN2};
 
 //array of relays
-int relays[QTY_RELAYS] = {RELAY1, RELAY2};
+int relays[QTY_ZONES] = {RELAY1, RELAY2};
 
-//struct for each garden zone & array created. currently only using hygro_reading
-//but we could assign the arrays and relays into this and run everything from the struct
+//struct for each garden zone & array created.
 struct garden_zone
 {
     int hygrometer;
@@ -32,10 +30,10 @@ struct garden_zone
     //bool relay_power;
 } garden_zones[QTY_ZONES];
 
-//function declarations
-void init_hygros();
+////////////////FUNCTION DECLARATIONS///////////////////
 void init_pump();
-void init_relays();
+void init_hygros(int hygro_id);
+void init_relays(int relay_id);
 void init_zones();
 void init_system();
 void record_hygros();
@@ -45,12 +43,13 @@ void run_water_cycle();
 //test functions
 //
 
+////////////////MAIN PROGRAM (CORE 0)/////////////////
 int main()
 {
     stdio_init_all();
     printf("Indoor herb garden v 1.0\n");
 
-    //initialize components
+    //initialize power, components, and zones
     init_system();
 
     while (1)
@@ -64,21 +63,7 @@ int main()
     }
 }
 
-void init_hygros()
-{
-    //init power pin
-    gpio_init(HYGRO_POWER_PIN);
-    gpio_set_dir(HYGRO_POWER_PIN, GPIO_OUT);
-
-    //init digital read pins on hygros
-    for (int i = 0; i < QTY_HYGROS; ++i)
-    {
-        gpio_init(hygrometers[i]);
-        gpio_set_dir(hygrometers[i], GPIO_IN);
-        gpio_pull_down(hygrometers[i]);
-    }
-}
-
+/////////////////FUNCTION IMPLEMENTATIONS//////////////
 void init_pump()
 {
     gpio_init(PUMP_POWER_PIN);
@@ -86,38 +71,50 @@ void init_pump()
     gpio_put(PUMP_POWER_PIN, 1);
 }
 
-void init_relays()
+void init_hygros(int hygro_id)
 {
-    for (int i = 0; i < QTY_RELAYS; ++i)
-    {
-        gpio_init(relays[i]);
-        gpio_set_dir(relays[i], GPIO_OUT);
-        gpio_put(relays[i], 1);
-    }
+    gpio_init(hygro_id);
+    gpio_set_dir(hygro_id, GPIO_IN);
+    gpio_pull_down(hygro_id);
+}
+
+void init_relays(int relay_id)
+{
+    gpio_init(relay_id);
+    gpio_set_dir(relay_id, GPIO_OUT);
+    gpio_put(relay_id, 1);
 }
 
 //set components into their zones
 void init_zones()
 {
+
     for (int i = 0; i < QTY_ZONES; ++i)
     {
         garden_zones[i].hygrometer = hygrometers[i];
+        init_hygros(garden_zones[i].hygrometer);
+
         garden_zones[i].relay = relays[i];
+        init_relays(garden_zones[i].relay);
     }
 }
 
 //need to add lights still
 void init_system()
 {
-    init_hygros();
+    //init power pin for hygros
+    gpio_init(HYGRO_POWER_PIN);
+    gpio_set_dir(HYGRO_POWER_PIN, GPIO_OUT);
+
+    //init pump power pin
     init_pump();
-    init_relays();
+    //init the zones by setting components to each grow zone
     init_zones();
 }
 
 void record_hygros()
 {
-    for (int i = 0; i < QTY_HYGROS; ++i)
+    for (int i = 0; i < QTY_ZONES; ++i)
     {
         bool digital_reading = gpio_get(garden_zones[i].hygrometer);
         garden_zones[i].hygro_reading = digital_reading;
@@ -147,12 +144,12 @@ void run_water_cycle()
         {
             gpio_put(garden_zones[i].relay, 0);
             needs_water = true;
-            printf("Watering zone %u\n", i);
+            //printf("Watering zone %u\n", i);  //serial output test function
         }
         else
         {
             gpio_put(garden_zones[i].relay, 1);
-            printf("Zone %u okay\n", i);
+            //printf("Zone %u okay\n", i);  //serial output test function
         }
     }
 

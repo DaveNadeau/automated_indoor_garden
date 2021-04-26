@@ -2639,9 +2639,6 @@ CMakeFiles\watering_system.dir\watering_system.c.obj: C:\Users\daven\Documents\P
 CMakeFiles\watering_system.dir\watering_system.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\uart.h
 CMakeFiles\watering_system.dir\watering_system.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\uart.h
 CMakeFiles\watering_system.dir\watering_system.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\include\pico\stdio_usb.h
-CMakeFiles\watering_system.dir\watering_system.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\include\hardware\adc.h
-CMakeFiles\watering_system.dir\watering_system.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\adc.h
-CMakeFiles\watering_system.dir\watering_system.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\adc.h
 
 
 
@@ -2666,8 +2663,6 @@ C:\Users\daven\Documents\Pico\pico-sdk\lib\tinyusb\src\tusb_option.h:
 C:\Users\daven\Documents\Pico\pico-sdk\src\common\pico_base\include\pico.h:
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\arm-none-eabi\include\sys\_types.h":
-
-C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\include\hardware\adc.h:
 
 C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_watchdog\include\hardware\watchdog.h:
 
@@ -3060,7 +3055,3 @@ C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c
 C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c:
 
 ..\watering_system.c:
-
-C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\adc.h:
-
-C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\adc.h:
