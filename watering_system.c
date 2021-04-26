@@ -23,22 +23,28 @@ int hygrometers[QTY_HYGROS] = {DIGITAL_HYGRO_PIN1, DIGITAL_HYGRO_PIN2};
 //array of relays
 int relays[QTY_RELAYS] = {RELAY1, RELAY2};
 
-//struct for each garden zone & array created
+//struct for each garden zone & array created. currently only using hygro_reading
+//but we could assign the arrays and relays into this and run everything from the struct
 struct garden_zone
 {
+    int hygrometer;
     bool hygro_reading;
-    bool relay_power;
+    int relay;
+    //bool relay_power;
 } garden_zones[QTY_ZONES];
 
 //function declarations
 void init_hygros();
 void init_pump();
 void init_relays();
+void init_zones();
+void init_system();
 void record_hygros();
+void run_read_cycle();
 void run_water_cycle();
 
 //test functions
-void test_relay();
+//
 
 int main()
 {
@@ -46,25 +52,14 @@ int main()
     printf("Indoor herb garden v 1.0\n");
 
     //initialize components
-    init_hygros();
-    init_pump();
-    init_relays();
+    init_system();
 
     while (1)
     {
-        //power up the hygrometers and let them stablize
-        gpio_put(HYGRO_POWER_PIN, 1);
-        sleep_ms(200);
-
-        //read and save hygro values into garden zone struct
-        record_hygros();
-
-        //power down hygro until next reading
-        gpio_put(HYGRO_POWER_PIN, 0);
-
+        //read hygrometers
+        run_read_cycle();
         //water if necessary
         run_water_cycle();
-
         //sleep until next reading
         sleep_ms(10000);
     }
@@ -89,6 +84,7 @@ void init_pump()
 {
     gpio_init(PUMP_POWER_PIN);
     gpio_set_dir(PUMP_POWER_PIN, GPIO_OUT);
+    gpio_put(PUMP_POWER_PIN, 1);
 }
 
 void init_relays()
@@ -101,29 +97,62 @@ void init_relays()
     }
 }
 
+//set components into their zones
+void init_zones()
+{
+    for (int i = 0; i < QTY_ZONES; ++i)
+    {
+        garden_zones[i].hygrometer = hygrometers[i];
+        garden_zones[i].relay = relays[i];
+    }
+}
+
+//need to add lights still
+void init_system()
+{
+    init_hygros();
+    init_pump();
+    init_relays();
+    init_zones();
+}
+
 void record_hygros()
 {
     for (int i = 0; i < QTY_HYGROS; ++i)
     {
-        bool digital_reading = gpio_get(hygrometers[i]);
+        bool digital_reading = gpio_get(garden_zones[i].hygrometer);
         garden_zones[i].hygro_reading = digital_reading;
     }
 }
 
+void run_read_cycle()
+{
+    //power up the hygrometers and let them stablize
+    gpio_put(HYGRO_POWER_PIN, 1);
+    sleep_ms(200);
+
+    //read and save hygro values into garden zone struct
+    record_hygros();
+
+    //power down hygro until next reading
+    gpio_put(HYGRO_POWER_PIN, 0);
+}
+
 void run_water_cycle()
 {
+    //Open solenoids of the zones that need water only
     bool needs_water = false;
     for (int i = 0; i < QTY_ZONES; ++i)
     {
         if (garden_zones[i].hygro_reading)
         {
-            gpio_put(relays[i], 0);
+            gpio_put(garden_zones[i].relay, 0);
             needs_water = true;
             printf("Watering zone %u\n", i);
         }
         else
         {
-            gpio_put(relays[i], 1);
+            gpio_put(garden_zones[i].relay, 1);
             printf("Zone %u okay\n", i);
         }
     }
@@ -131,16 +160,14 @@ void run_water_cycle()
     // if one of the readings says it needs water, then turn on the pump
     // if (needs_water)
     // {
-    //     gpio_put(PUMP_POWER_PIN, 1);
+    //     gpio_put(PUMP_POWER_PIN, 0);
     // }
 
-    // gpio_put(PUMP_POWER_PIN, 1);
-
+    //let the water run for a few seconds
     sleep_ms(4000);
 
-    // turn off power and close relays
-
-    gpio_put(PUMP_POWER_PIN, 0);
+    // turn off pump power and close all relays
+    gpio_put(PUMP_POWER_PIN, 1);
 
     for (int i = 0; i < QTY_ZONES; ++i)
     {
@@ -149,43 +176,4 @@ void run_water_cycle()
 }
 
 //test function implementations
-// void test_relay()
-// {
-//     //testing relay
-//     gpio_init(RELAY1);
-//     gpio_set_dir(RELAY1, GPIO_OUT);
-//     gpio_put(RELAY1, 0);
-//     sleep_ms(2000);
-//     gpio_put(RELAY1, 1);
-// }
-
-// void read_hygros()
-// {
-//     //test function... should set zone value for processing later.
-//     for (int i = 0; i < QTY_HYGROS; ++i)
-//     {
-//         bool digital_reading = gpio_get(hygrometers[i]);
-//         if (!digital_reading)
-//         {
-//             printf("Unit %u Digital value: %d (water okay)\n", i, digital_reading);
-//         }
-//         else
-//         {
-//             printf("Unit %u Digital value: %d (needs water)\n", i, digital_reading);
-//         }
-//     }
-// }
-
-// void set_garden_zones()
-// {
-//     for (int i = 0; i < QTY_ZONES; ++i)
-//     {
-//         garden_zones[i].hygro_reading = hygrometers[i];
-//     }
-//     for (int i = 0; i < QTY_ZONES; i++)
-//     {
-//         if (garden_zones[i].hygro_reading)
-//         {
-//         }
-//     }
-// }
+//
