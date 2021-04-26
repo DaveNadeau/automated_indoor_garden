@@ -31,21 +31,21 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY
  13 .comment      0000004d  00000000  00000000  000214e8  2**0
                   CONTENTS, READONLY
- 14 .debug_info   0001ceeb  00000000  00000000  00021535  2**0
+ 14 .debug_info   0001ce86  00000000  00000000  00021535  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 15 .debug_abbrev 00005974  00000000  00000000  0003e420  2**0
+ 15 .debug_abbrev 00005974  00000000  00000000  0003e3bb  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 16 .debug_loc    000125b9  00000000  00000000  00043d94  2**0
+ 16 .debug_loc    0001255d  00000000  00000000  00043d2f  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_aranges 000011c8  00000000  00000000  00056350  2**3
+ 17 .debug_aranges 000011c8  00000000  00000000  00056290  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_ranges 00003188  00000000  00000000  00057518  2**3
+ 18 .debug_ranges 00003188  00000000  00000000  00057458  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .debug_line   0001285b  00000000  00000000  0005a6a0  2**0
+ 19 .debug_line   00012836  00000000  00000000  0005a5e0  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .debug_str    00005fcf  00000000  00000000  0006cefb  2**0
+ 20 .debug_str    00005fcf  00000000  00000000  0006ce16  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_frame  000021e8  00000000  00000000  00072ecc  2**2
+ 21 .debug_frame  000021e4  00000000  00000000  00072de8  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 watering_system.elf:     file format elf32-littlearm
@@ -388,7 +388,7 @@ Disassembly of section .text:
 10000376:	22d0      	movs	r2, #208	; 0xd0
 10000378:	0612      	lsls	r2, r2, #24
 1000037a:	6253      	str	r3, [r2, #36]	; 0x24
-1000037c:	6193      	str	r3, [r2, #24]
+1000037c:	6153      	str	r3, [r2, #20]
 1000037e:	3401      	adds	r4, #1
 10000380:	2c01      	cmp	r4, #1
 10000382:	ddf0      	ble.n	10000366 <init_relays+0x6>
@@ -421,7 +421,7 @@ Disassembly of section .text:
 100003b8:	200009f8 	.word	0x200009f8
 
 100003bc <run_water_cycle>:
-100003bc:	b570      	push	{r4, r5, r6, lr}
+100003bc:	b510      	push	{r4, lr}
 100003be:	2400      	movs	r4, #0
 100003c0:	e00c      	b.n	100003dc <run_water_cycle+0x20>
 100003c2:	00a3      	lsls	r3, r4, #2
@@ -431,7 +431,7 @@ Disassembly of section .text:
 100003ca:	4093      	lsls	r3, r2
 100003cc:	22d0      	movs	r2, #208	; 0xd0
 100003ce:	0612      	lsls	r2, r2, #24
-100003d0:	6193      	str	r3, [r2, #24]
+100003d0:	6153      	str	r3, [r2, #20]
 100003d2:	0021      	movs	r1, r4
 100003d4:	4818      	ldr	r0, [pc, #96]	; (10000438 <run_water_cycle+0x7c>)
 100003d6:	f004 f80b 	bl	100043f0 <__wrap_printf>
@@ -450,34 +450,34 @@ Disassembly of section .text:
 100003f2:	4093      	lsls	r3, r2
 100003f4:	22d0      	movs	r2, #208	; 0xd0
 100003f6:	0612      	lsls	r2, r2, #24
-100003f8:	6153      	str	r3, [r2, #20]
+100003f8:	6193      	str	r3, [r2, #24]
 100003fa:	0021      	movs	r1, r4
 100003fc:	4810      	ldr	r0, [pc, #64]	; (10000440 <run_water_cycle+0x84>)
 100003fe:	f003 fff7 	bl	100043f0 <__wrap_printf>
 10000402:	e7ea      	b.n	100003da <run_water_cycle+0x1e>
-10000404:	24d0      	movs	r4, #208	; 0xd0
-10000406:	0624      	lsls	r4, r4, #24
-10000408:	2580      	movs	r5, #128	; 0x80
-1000040a:	036d      	lsls	r5, r5, #13
-1000040c:	6165      	str	r5, [r4, #20]
-1000040e:	20fa      	movs	r0, #250	; 0xfa
-10000410:	0100      	lsls	r0, r0, #4
-10000412:	f000 fe1d 	bl	10001050 <sleep_ms>
-10000416:	61a5      	str	r5, [r4, #24]
-10000418:	2300      	movs	r3, #0
-1000041a:	e008      	b.n	1000042e <run_water_cycle+0x72>
-1000041c:	0099      	lsls	r1, r3, #2
-1000041e:	4a05      	ldr	r2, [pc, #20]	; (10000434 <run_water_cycle+0x78>)
-10000420:	5889      	ldr	r1, [r1, r2]
-10000422:	2201      	movs	r2, #1
-10000424:	408a      	lsls	r2, r1
-10000426:	21d0      	movs	r1, #208	; 0xd0
-10000428:	0609      	lsls	r1, r1, #24
-1000042a:	618a      	str	r2, [r1, #24]
-1000042c:	3301      	adds	r3, #1
-1000042e:	2b01      	cmp	r3, #1
-10000430:	ddf4      	ble.n	1000041c <run_water_cycle+0x60>
-10000432:	bd70      	pop	{r4, r5, r6, pc}
+10000404:	20fa      	movs	r0, #250	; 0xfa
+10000406:	0100      	lsls	r0, r0, #4
+10000408:	f000 fe22 	bl	10001050 <sleep_ms>
+1000040c:	23d0      	movs	r3, #208	; 0xd0
+1000040e:	061b      	lsls	r3, r3, #24
+10000410:	2280      	movs	r2, #128	; 0x80
+10000412:	0352      	lsls	r2, r2, #13
+10000414:	619a      	str	r2, [r3, #24]
+10000416:	2300      	movs	r3, #0
+10000418:	e008      	b.n	1000042c <run_water_cycle+0x70>
+1000041a:	0099      	lsls	r1, r3, #2
+1000041c:	4a05      	ldr	r2, [pc, #20]	; (10000434 <run_water_cycle+0x78>)
+1000041e:	5889      	ldr	r1, [r1, r2]
+10000420:	2201      	movs	r2, #1
+10000422:	408a      	lsls	r2, r1
+10000424:	21d0      	movs	r1, #208	; 0xd0
+10000426:	0609      	lsls	r1, r1, #24
+10000428:	614a      	str	r2, [r1, #20]
+1000042a:	3301      	adds	r3, #1
+1000042c:	2b01      	cmp	r3, #1
+1000042e:	ddf4      	ble.n	1000041a <run_water_cycle+0x5e>
+10000430:	bd10      	pop	{r4, pc}
+10000432:	46c0      	nop			; (mov r8, r8)
 10000434:	200002f8 	.word	0x200002f8
 10000438:	10006c14 	.word	0x10006c14
 1000043c:	200009f8 	.word	0x200009f8

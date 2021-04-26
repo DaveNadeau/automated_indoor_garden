@@ -1188,9 +1188,9 @@ Discarded input sections
  .debug_frame   0x00000000       0x20 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
- .text          0x00000000        0x0 C:\Users\daven\AppData\Local\Temp\cccne6rM.o
- .data          0x00000000        0x0 C:\Users\daven\AppData\Local\Temp\cccne6rM.o
- .bss           0x00000000        0x0 C:\Users\daven\AppData\Local\Temp\cccne6rM.o
+ .text          0x00000000        0x0 C:\Users\daven\AppData\Local\Temp\cc8NPHDM.o
+ .data          0x00000000        0x0 C:\Users\daven\AppData\Local\Temp\cc8NPHDM.o
+ .bss           0x00000000        0x0 C:\Users\daven\AppData\Local\Temp\cc8NPHDM.o
  .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-calloc.o)
@@ -1384,7 +1384,7 @@ LOAD c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\daven\AppData\Local\Temp\cccne6rM.o
+ .boot2         0x10000000      0x100 C:\Users\daven\AppData\Local\Temp\cc8NPHDM.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -2852,7 +2852,7 @@ LOAD CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/t
 LOAD CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 LOAD CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 LOAD CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
-LOAD C:\Users\daven\AppData\Local\Temp\cccne6rM.o
+LOAD C:\Users\daven\AppData\Local\Temp\cc8NPHDM.o
 LOAD c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -2963,7 +2963,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000724       0x2c CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
  .ARM.attributes
-                0x00000750       0x22 C:\Users\daven\AppData\Local\Temp\cccne6rM.o
+                0x00000750       0x22 C:\Users\daven\AppData\Local\Temp\cc8NPHDM.o
  .ARM.attributes
                 0x00000772       0x1e c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
@@ -3005,50 +3005,50 @@ LOAD linker stubs
  .comment       0x0000004d       0x4e CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
  .comment       0x0000004d       0x4e CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 
-.debug_info     0x00000000    0x1ceeb
- .debug_info    0x00000000      0xc8c CMakeFiles/watering_system.dir/watering_system.c.obj
- .debug_info    0x00000c8c     0x1141 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_info    0x00001dcd      0x620 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_info    0x000023ed      0x4a5 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_info    0x00002892      0x1e3 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_info    0x00002a75     0x37d9 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_info    0x0000624e     0x1043 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_info    0x00007291      0x17b CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_info    0x0000740c      0xdb9 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_info    0x000081c5      0x2bc CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
- .debug_info    0x00008481     0x120c CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_info    0x0000968d      0x975 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_info    0x0000a002     0x1068 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_info    0x0000b06a      0x49c CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_info    0x0000b506      0x214 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_info    0x0000b71a      0x3b0 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_info    0x0000baca     0x18ff CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_info    0x0000d3c9       0x26 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
- .debug_info    0x0000d3ef     0x1a5f CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_info    0x0000ee4e       0x22 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_info    0x0000ee70      0x231 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_info    0x0000f0a1       0x22 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_info    0x0000f0c3       0x22 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_info    0x0000f0e5      0x2a0 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_info    0x0000f385       0x22 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_info    0x0000f3a7       0x26 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_info    0x0000f3cd       0x22 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_info    0x0000f3ef      0x2e9 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_info    0x0000f6d8       0x22 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_info    0x0000f6fa       0x22 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_info    0x0000f71c       0x22 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_info    0x0000f73e      0x327 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_info    0x0000fa65     0x10dc CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_info    0x00010b41      0x805 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .debug_info    0x00011346      0xe8d CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .debug_info    0x000121d3      0x5fd CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- .debug_info    0x000127d0     0x1a31 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_info    0x00014201      0xca4 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_info    0x00014ea5     0x3fac CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- .debug_info    0x00018e51      0x9ea CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_info    0x0001983b     0x1b30 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_info    0x0001b36b      0x511 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
- .debug_info    0x0001b87c     0x166f CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+.debug_info     0x00000000    0x1ce86
+ .debug_info    0x00000000      0xc27 CMakeFiles/watering_system.dir/watering_system.c.obj
+ .debug_info    0x00000c27     0x1141 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_info    0x00001d68      0x620 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_info    0x00002388      0x4a5 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_info    0x0000282d      0x1e3 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_info    0x00002a10     0x37d9 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_info    0x000061e9     0x1043 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_info    0x0000722c      0x17b CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_info    0x000073a7      0xdb9 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_info    0x00008160      0x2bc CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+ .debug_info    0x0000841c     0x120c CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_info    0x00009628      0x975 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_info    0x00009f9d     0x1068 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_info    0x0000b005      0x49c CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_info    0x0000b4a1      0x214 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_info    0x0000b6b5      0x3b0 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_info    0x0000ba65     0x18ff CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_info    0x0000d364       0x26 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+ .debug_info    0x0000d38a     0x1a5f CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_info    0x0000ede9       0x22 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_info    0x0000ee0b      0x231 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_info    0x0000f03c       0x22 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_info    0x0000f05e       0x22 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_info    0x0000f080      0x2a0 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_info    0x0000f320       0x22 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_info    0x0000f342       0x26 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_info    0x0000f368       0x22 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_info    0x0000f38a      0x2e9 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_info    0x0000f673       0x22 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_info    0x0000f695       0x22 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_info    0x0000f6b7       0x22 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_info    0x0000f6d9      0x327 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_info    0x0000fa00     0x10dc CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_info    0x00010adc      0x805 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .debug_info    0x000112e1      0xe8d CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .debug_info    0x0001216e      0x5fd CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ .debug_info    0x0001276b     0x1a31 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_info    0x0001419c      0xca4 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_info    0x00014e40     0x3fac CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ .debug_info    0x00018dec      0x9ea CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_info    0x000197d6     0x1b30 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_info    0x0001b306      0x511 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+ .debug_info    0x0001b817     0x166f CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 
 .debug_abbrev   0x00000000     0x5974
  .debug_abbrev  0x00000000      0x26f CMakeFiles/watering_system.dir/watering_system.c.obj
@@ -3095,39 +3095,39 @@ LOAD linker stubs
  .debug_abbrev  0x0000543a      0x200 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
  .debug_abbrev  0x0000563a      0x33a CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 
-.debug_loc      0x00000000    0x125b9
- .debug_loc     0x00000000      0x580 CMakeFiles/watering_system.dir/watering_system.c.obj
- .debug_loc     0x00000580      0xafe CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_loc     0x0000107e      0x457 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_loc     0x000014d5      0x1d7 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_loc     0x000016ac       0xe9 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_loc     0x00001795     0x2c96 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_loc     0x0000442b      0x8de CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_loc     0x00004d09       0x60 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_loc     0x00004d69      0x6e1 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_loc     0x0000544a       0xc9 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
- .debug_loc     0x00005513     0x1439 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_loc     0x0000694c      0x3c2 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_loc     0x00006d0e      0x890 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_loc     0x0000759e      0x267 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_loc     0x00007805       0x71 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_loc     0x00007876      0x228 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_loc     0x00007a9e     0x1186 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_loc     0x00008c24     0x2095 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_loc     0x0000acb9      0x16f CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_loc     0x0000ae28       0x59 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_loc     0x0000ae81       0x73 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_loc     0x0000aef4      0xa11 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_loc     0x0000b905      0x361 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .debug_loc     0x0000bc66      0x558 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .debug_loc     0x0000c1be      0x133 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- .debug_loc     0x0000c2f1      0xd88 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_loc     0x0000d079      0x583 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_loc     0x0000d5fc     0x22ec CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- .debug_loc     0x0000f8e8      0x5b9 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_loc     0x0000fea1      0xf74 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_loc     0x00010e15      0x2c7 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
- .debug_loc     0x000110dc     0x14dd CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+.debug_loc      0x00000000    0x1255d
+ .debug_loc     0x00000000      0x524 CMakeFiles/watering_system.dir/watering_system.c.obj
+ .debug_loc     0x00000524      0xafe CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_loc     0x00001022      0x457 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_loc     0x00001479      0x1d7 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_loc     0x00001650       0xe9 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_loc     0x00001739     0x2c96 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_loc     0x000043cf      0x8de CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_loc     0x00004cad       0x60 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_loc     0x00004d0d      0x6e1 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_loc     0x000053ee       0xc9 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+ .debug_loc     0x000054b7     0x1439 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_loc     0x000068f0      0x3c2 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_loc     0x00006cb2      0x890 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_loc     0x00007542      0x267 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_loc     0x000077a9       0x71 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_loc     0x0000781a      0x228 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_loc     0x00007a42     0x1186 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_loc     0x00008bc8     0x2095 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_loc     0x0000ac5d      0x16f CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_loc     0x0000adcc       0x59 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_loc     0x0000ae25       0x73 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_loc     0x0000ae98      0xa11 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_loc     0x0000b8a9      0x361 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .debug_loc     0x0000bc0a      0x558 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .debug_loc     0x0000c162      0x133 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ .debug_loc     0x0000c295      0xd88 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_loc     0x0000d01d      0x583 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_loc     0x0000d5a0     0x22ec CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ .debug_loc     0x0000f88c      0x5b9 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_loc     0x0000fe45      0xf74 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_loc     0x00010db9      0x2c7 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+ .debug_loc     0x00011080     0x14dd CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 
 .debug_aranges  0x00000000     0x11c8
  .debug_aranges
@@ -3259,50 +3259,50 @@ LOAD linker stubs
  .debug_ranges  0x00003030       0x88 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
  .debug_ranges  0x000030b8       0xd0 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 
-.debug_line     0x00000000    0x1285b
- .debug_line    0x00000000      0x843 CMakeFiles/watering_system.dir/watering_system.c.obj
- .debug_line    0x00000843      0x8e7 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_line    0x0000112a      0x48a CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_line    0x000015b4      0x41f CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_line    0x000019d3      0x285 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_line    0x00001c58     0x17ca CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_line    0x00003422      0xacf CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_line    0x00003ef1      0x237 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_line    0x00004128      0x819 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_line    0x00004941      0x2b0 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
- .debug_line    0x00004bf1      0x88d CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_line    0x0000547e      0x852 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_line    0x00005cd0      0xac2 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_line    0x00006792      0x3ba CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_line    0x00006b4c      0x2b9 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_line    0x00006e05      0x41a CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_line    0x0000721f      0xe50 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_line    0x0000806f       0x90 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
- .debug_line    0x000080ff     0x120c CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_line    0x0000930b      0x153 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_line    0x0000945e      0x1c7 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_line    0x00009625      0x2d4 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_line    0x000098f9      0x40d CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_line    0x00009d06      0x350 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_line    0x0000a056      0x6a7 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_line    0x0000a6fd       0xa3 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_line    0x0000a7a0      0x3cd CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_line    0x0000ab6d      0x354 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_line    0x0000aec1      0x1d3 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_line    0x0000b094       0xcd CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_line    0x0000b161       0xde CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_line    0x0000b23f      0x1cb CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_line    0x0000b40a      0xce2 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_line    0x0000c0ec      0x493 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .debug_line    0x0000c57f      0x957 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .debug_line    0x0000ced6      0x296 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- .debug_line    0x0000d16c      0xc17 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_line    0x0000dd83      0x77d CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_line    0x0000e500     0x203a CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- .debug_line    0x0001053a      0x58e CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_line    0x00010ac8      0xe91 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_line    0x00011959      0x450 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
- .debug_line    0x00011da9      0xab2 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+.debug_line     0x00000000    0x12836
+ .debug_line    0x00000000      0x81e CMakeFiles/watering_system.dir/watering_system.c.obj
+ .debug_line    0x0000081e      0x8e7 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_line    0x00001105      0x48a CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_line    0x0000158f      0x41f CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_line    0x000019ae      0x285 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_line    0x00001c33     0x17ca CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_line    0x000033fd      0xacf CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_line    0x00003ecc      0x237 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_line    0x00004103      0x819 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_line    0x0000491c      0x2b0 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+ .debug_line    0x00004bcc      0x88d CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_line    0x00005459      0x852 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_line    0x00005cab      0xac2 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_line    0x0000676d      0x3ba CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_line    0x00006b27      0x2b9 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_line    0x00006de0      0x41a CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_line    0x000071fa      0xe50 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_line    0x0000804a       0x90 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+ .debug_line    0x000080da     0x120c CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_line    0x000092e6      0x153 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_line    0x00009439      0x1c7 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_line    0x00009600      0x2d4 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_line    0x000098d4      0x40d CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_line    0x00009ce1      0x350 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_line    0x0000a031      0x6a7 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_line    0x0000a6d8       0xa3 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_line    0x0000a77b      0x3cd CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_line    0x0000ab48      0x354 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_line    0x0000ae9c      0x1d3 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_line    0x0000b06f       0xcd CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_line    0x0000b13c       0xde CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_line    0x0000b21a      0x1cb CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_line    0x0000b3e5      0xce2 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_line    0x0000c0c7      0x493 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .debug_line    0x0000c55a      0x957 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .debug_line    0x0000ceb1      0x296 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ .debug_line    0x0000d147      0xc17 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_line    0x0000dd5e      0x77d CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_line    0x0000e4db     0x203a CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ .debug_line    0x00010515      0x58e CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_line    0x00010aa3      0xe91 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_line    0x00011934      0x450 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+ .debug_line    0x00011d84      0xab2 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 
 .debug_str      0x00000000     0x5fcf
  .debug_str     0x00000000      0x46e CMakeFiles/watering_system.dir/watering_system.c.obj
@@ -3392,37 +3392,37 @@ LOAD linker stubs
  .debug_str     0x00005e11      0x1be CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
                                 0x586 (size before relaxing)
 
-.debug_frame    0x00000000     0x21e8
- .debug_frame   0x00000000       0xa8 CMakeFiles/watering_system.dir/watering_system.c.obj
- .debug_frame   0x000000a8      0x178 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_frame   0x00000220       0xa8 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_frame   0x000002c8       0xac CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_frame   0x00000374       0x38 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_frame   0x000003ac      0x294 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_frame   0x00000640      0x104 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_frame   0x00000744       0x20 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_frame   0x00000764       0xb0 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_frame   0x00000814       0x58 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
- .debug_frame   0x0000086c      0x164 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_frame   0x000009d0       0xdc CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_frame   0x00000aac      0x128 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_frame   0x00000bd4       0x98 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_frame   0x00000c6c       0x40 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_frame   0x00000cac       0x44 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_frame   0x00000cf0      0x17c CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_frame   0x00000e6c      0x1f8 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_frame   0x00001064       0x64 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_frame   0x000010c8       0x2c CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_frame   0x000010f4       0x2c CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_frame   0x00001120      0x21c CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_frame   0x0000133c       0xbc CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .debug_frame   0x000013f8       0xa4 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .debug_frame   0x0000149c       0x48 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- .debug_frame   0x000014e4      0x294 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_frame   0x00001778       0xd8 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_frame   0x00001850      0x368 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- .debug_frame   0x00001bb8       0xcc CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_frame   0x00001c84      0x200 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_frame   0x00001e84       0x80 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
- .debug_frame   0x00001f04      0x2bc CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
- .debug_frame   0x000021c0       0x28 c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-strlen-stub.o)
+.debug_frame    0x00000000     0x21e4
+ .debug_frame   0x00000000       0xa4 CMakeFiles/watering_system.dir/watering_system.c.obj
+ .debug_frame   0x000000a4      0x178 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_frame   0x0000021c       0xa8 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_frame   0x000002c4       0xac CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_frame   0x00000370       0x38 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_frame   0x000003a8      0x294 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_frame   0x0000063c      0x104 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_frame   0x00000740       0x20 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_frame   0x00000760       0xb0 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_frame   0x00000810       0x58 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+ .debug_frame   0x00000868      0x164 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_frame   0x000009cc       0xdc CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_frame   0x00000aa8      0x128 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_frame   0x00000bd0       0x98 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_frame   0x00000c68       0x40 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_frame   0x00000ca8       0x44 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_frame   0x00000cec      0x17c CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_frame   0x00000e68      0x1f8 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_frame   0x00001060       0x64 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_frame   0x000010c4       0x2c CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_frame   0x000010f0       0x2c CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_frame   0x0000111c      0x21c CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_frame   0x00001338       0xbc CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .debug_frame   0x000013f4       0xa4 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .debug_frame   0x00001498       0x48 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ .debug_frame   0x000014e0      0x294 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_frame   0x00001774       0xd8 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_frame   0x0000184c      0x368 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ .debug_frame   0x00001bb4       0xcc CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_frame   0x00001c80      0x200 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_frame   0x00001e80       0x80 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+ .debug_frame   0x00001f00      0x2bc CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+ .debug_frame   0x000021bc       0x28 c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-strlen-stub.o)
