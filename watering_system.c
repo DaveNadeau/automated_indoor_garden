@@ -10,6 +10,7 @@
 
 //pin assignments
 #define HYGRO_POWER_PIN 2
+#define PUMP_POWER_PIN 20
 #define DIGITAL_HYGRO_PIN1 16
 #define DIGITAL_HYGRO_PIN2 17
 
@@ -31,6 +32,7 @@ struct garden_zone
 
 //function declarations
 void init_hygros();
+void init_pump();
 void init_relays();
 void record_hygros();
 void run_water_cycle();
@@ -45,6 +47,7 @@ int main()
 
     //initialize components
     init_hygros();
+    init_pump();
     init_relays();
 
     while (1)
@@ -63,7 +66,7 @@ int main()
         run_water_cycle();
 
         //sleep until next reading
-        sleep_ms(15000);
+        sleep_ms(10000);
     }
 }
 
@@ -80,6 +83,12 @@ void init_hygros()
         gpio_set_dir(hygrometers[i], GPIO_IN);
         gpio_pull_down(hygrometers[i]);
     }
+}
+
+void init_pump()
+{
+    gpio_init(PUMP_POWER_PIN);
+    gpio_set_dir(PUMP_POWER_PIN, GPIO_OUT);
 }
 
 void init_relays()
@@ -120,12 +129,19 @@ void run_water_cycle()
     }
 
     // if one of the readings says it needs water, then turn on the pump
-    // if(needs_water){
-
+    // if (needs_water)
+    // {
+    //     gpio_put(PUMP_POWER_PIN, 1);
     // }
-    sleep_ms(7000);
+
+    gpio_put(PUMP_POWER_PIN, 1);
+
+    sleep_ms(4000);
 
     // turn off power and close relays
+
+    gpio_put(PUMP_POWER_PIN, 0);
+
     for (int i = 0; i < QTY_ZONES; ++i)
     {
         gpio_put(relays[i], 0);
