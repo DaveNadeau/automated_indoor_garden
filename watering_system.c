@@ -97,7 +97,7 @@ void init_relays()
     {
         gpio_init(relays[i]);
         gpio_set_dir(relays[i], GPIO_OUT);
-        gpio_put(relays[i], 0);
+        gpio_put(relays[i], 1);
     }
 }
 
@@ -117,13 +117,13 @@ void run_water_cycle()
     {
         if (garden_zones[i].hygro_reading)
         {
-            gpio_put(relays[i], 1);
+            gpio_put(relays[i], 0);
             needs_water = true;
             printf("Watering zone %u\n", i);
         }
         else
         {
-            gpio_put(relays[i], 0);
+            gpio_put(relays[i], 1);
             printf("Zone %u okay\n", i);
         }
     }
@@ -134,7 +134,7 @@ void run_water_cycle()
     //     gpio_put(PUMP_POWER_PIN, 1);
     // }
 
-    gpio_put(PUMP_POWER_PIN, 1);
+    // gpio_put(PUMP_POWER_PIN, 1);
 
     sleep_ms(4000);
 
@@ -144,7 +144,7 @@ void run_water_cycle()
 
     for (int i = 0; i < QTY_ZONES; ++i)
     {
-        gpio_put(relays[i], 0);
+        gpio_put(relays[i], 1);
     }
 }
 
