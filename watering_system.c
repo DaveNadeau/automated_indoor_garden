@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include "pico/stdlib.h"
 #include "hardware/gpio.h"
-#include "hardware/adc.h"
 
 //global variables
 #define QTY_HYGROS 2

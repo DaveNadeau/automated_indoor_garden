@@ -47,8 +47,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_util/pheap.c.obj.d"
   "CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_util/queue.c.obj"
   "CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_util/queue.c.obj.d"
-  "CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
-  "CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj.d"
   "CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
   "CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d"
   "CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"

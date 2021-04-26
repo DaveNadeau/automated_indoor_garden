@@ -1171,26 +1171,9 @@ Discarded input sections
  .debug_frame   0x00000000       0xa8 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
- .text          0x00000000        0x0 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
- .data          0x00000000        0x0 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
- .bss           0x00000000        0x0 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
- .text.adc_init
-                0x00000000       0x34 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
- .debug_info    0x00000000      0x2c7 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
- .debug_abbrev  0x00000000      0x101 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
- .debug_loc     0x00000000       0x8c CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
- .debug_aranges
-                0x00000000       0x20 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
- .debug_ranges  0x00000000       0x28 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
- .debug_line    0x00000000      0x319 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
- .debug_str     0x00000000      0x286 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
- .comment       0x00000000       0x4e CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
- .debug_frame   0x00000000       0x20 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
- .ARM.attributes
-                0x00000000       0x2c CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
- .text          0x00000000        0x0 C:\Users\daven\AppData\Local\Temp\ccq5NqgE.o
- .data          0x00000000        0x0 C:\Users\daven\AppData\Local\Temp\ccq5NqgE.o
- .bss           0x00000000        0x0 C:\Users\daven\AppData\Local\Temp\ccq5NqgE.o
+ .text          0x00000000        0x0 C:\Users\daven\AppData\Local\Temp\ccF3vwvm.o
+ .data          0x00000000        0x0 C:\Users\daven\AppData\Local\Temp\ccF3vwvm.o
+ .bss           0x00000000        0x0 C:\Users\daven\AppData\Local\Temp\ccF3vwvm.o
  .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-calloc.o)
@@ -1384,7 +1367,7 @@ LOAD c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\daven\AppData\Local\Temp\ccq5NqgE.o
+ .boot2         0x10000000      0x100 C:\Users\daven\AppData\Local\Temp\ccF3vwvm.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -2862,8 +2845,7 @@ LOAD CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/t
 LOAD CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
 LOAD CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 LOAD CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-LOAD CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
-LOAD C:\Users\daven\AppData\Local\Temp\ccq5NqgE.o
+LOAD C:\Users\daven\AppData\Local\Temp\ccF3vwvm.o
 LOAD c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -2974,7 +2956,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000724       0x2c CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
  .ARM.attributes
-                0x00000750       0x22 C:\Users\daven\AppData\Local\Temp\ccq5NqgE.o
+                0x00000750       0x22 C:\Users\daven\AppData\Local\Temp\ccF3vwvm.o
  .ARM.attributes
                 0x00000772       0x1e c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes

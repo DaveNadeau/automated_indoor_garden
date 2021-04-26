@@ -1249,49 +1249,6 @@ CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\common
 CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\common\pico_util\queue.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\sio.h
 
 
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\common\pico_base\include\pico.h
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\common\pico_base\include\pico\types.h
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\common\pico_base\include\pico\assert.h
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\lib\gcc\arm-none-eabi\10.2.1\include\stdbool.h"
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\arm-none-eabi\include\assert.h"
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\arm-none-eabi\include\_ansi.h"
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\arm-none-eabi\include\newlib.h"
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\arm-none-eabi\include\_newlib_version.h"
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\arm-none-eabi\include\sys\config.h"
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\arm-none-eabi\include\machine\ieeefp.h"
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\arm-none-eabi\include\sys\features.h"
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\lib\gcc\arm-none-eabi\10.2.1\include\stdint.h"
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\arm-none-eabi\include\stdint.h"
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\arm-none-eabi\include\machine\_default_types.h"
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\arm-none-eabi\include\sys\_intsup.h"
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\arm-none-eabi\include\sys\_stdint.h"
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\lib\gcc\arm-none-eabi\10.2.1\include\stddef.h"
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: generated\pico_base\pico\version.h
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\common\pico_base\include\pico\config.h
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: generated\pico_base\pico\config_autogen.h
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\boards\include\boards\pico.h
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\arm-none-eabi\include\sys\cdefs.h"
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\common\pico_base\include\pico\types.h
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\common\pico_base\include\pico\error.h
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\include\hardware\adc.h
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\adc.h
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_base\include\hardware\address_mapped.h
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\addressmap.h
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\adc.h
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_gpio\include\hardware\gpio.h
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\sio.h
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\sio.h
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\interp.h
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\padsbank0.h
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\pads_bank0.h
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_resets\include\hardware\resets.h
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\resets.h
-CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\resets.h
-
-
 CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_claim\claim.c
 CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_claim\include\hardware\claim.h
 CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\common\pico_base\include\pico.h
@@ -2710,9 +2667,9 @@ C:\Users\daven\Documents\Pico\pico-sdk\src\common\pico_base\include\pico.h:
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\arm-none-eabi\include\sys\_types.h":
 
-C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_watchdog\include\hardware\watchdog.h:
-
 C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\include\hardware\adc.h:
+
+C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_watchdog\include\hardware\watchdog.h:
 
 C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\include\tusb_config.h:
 
@@ -3004,12 +2961,6 @@ C:\Users\daven\Documents\Pico\pico-sdk\src\common\pico_util\queue.c:
 
 C:\Users\daven\Documents\Pico\pico-sdk\src\common\pico_util\include\pico\util\queue.h:
 
-C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c:
-
-C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\adc.h:
-
-C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\adc.h:
-
 C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_claim\claim.c:
 
 C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_claim\include\hardware\claim.h:
@@ -3109,3 +3060,7 @@ C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c
 C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c:
 
 ..\watering_system.c:
+
+C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\adc.h:
+
+C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\adc.h:

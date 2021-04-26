@@ -92,7 +92,6 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "C:/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/common"
   "C:/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/hw"
   "C:/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
-  "C:/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_adc/include"
   )
 
 # The set of dependency files which are needed:
@@ -121,7 +120,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/daven/Documents/Pico/pico-sdk/src/common/pico_util/datetime.c" "CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_util/datetime.c.obj" "gcc" "CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_util/datetime.c.obj.d"
   "C:/Users/daven/Documents/Pico/pico-sdk/src/common/pico_util/pheap.c" "CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_util/pheap.c.obj" "gcc" "CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_util/pheap.c.obj.d"
   "C:/Users/daven/Documents/Pico/pico-sdk/src/common/pico_util/queue.c" "CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_util/queue.c.obj" "gcc" "CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/common/pico_util/queue.c.obj.d"
-  "C:/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c" "CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj" "gcc" "CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj.d"
   "C:/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c" "CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" "gcc" "CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d"
   "C:/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c" "CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" "gcc" "CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d"
   "C:/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c" "CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" "gcc" "CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d"
