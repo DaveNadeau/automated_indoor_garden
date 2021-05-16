@@ -3,38 +3,47 @@
 #include "hardware/gpio.h"
 
 /////////////////GLOBAL VARIABLES//////////////////
-#define QTY_ZONES 2 //NOTE: relay and hygrometer count must be equal to zone quantity
+#define QTY_ZONES 3 //NOTE: relay and hygrometer count must be equal to zone quantity
 
-//power pin assignments
-#define HYGRO_POWER_PIN 2 //all hygrometers are powered from this one pin
-#define PUMP_POWER_PIN 20
+/////PIN ASSIGNMENTS/////
+//Hygrometer power pin assignments
+#define HYGRO_POWER1 19
+#define HYGRO_POWER2 20
+#define HYGRO_POWER3 21
 //hygro pin assignments
 #define DIGITAL_HYGRO_PIN1 16
 #define DIGITAL_HYGRO_PIN2 17
+#define DIGITAL_HYGRO_PIN3 18
 //solenoid pin assignments
-#define RELAY1 18
-#define RELAY2 19
+#define SOLENOID1 15
+#define SOLENOID2 14
+#define SOLENOID3 13
+//Light and pump pin assignments
+#define PUMP_RELAY_PIN 12
+#define LIGHT_RELAY_PIN 11
 
-//array of hygrometers
-int hygrometers[QTY_ZONES] = {DIGITAL_HYGRO_PIN1, DIGITAL_HYGRO_PIN2};
+//arrays of hygrometer's read and power pins
+int hygrometers[QTY_ZONES] = {DIGITAL_HYGRO_PIN1, DIGITAL_HYGRO_PIN2, DIGITAL_HYGRO_PIN3};
+int hygro_power[QTY_ZONES] = {HYGRO_POWER1, HYGRO_POWER2, HYGRO_POWER3};
 
-//array of relays
-int relays[QTY_ZONES] = {RELAY1, RELAY2};
+//array of solenoids
+int solenoids[QTY_ZONES] = {SOLENOID1, SOLENOID2, SOLENOID3};
 
-//struct for each garden zone & array created.
+//struct for each garden zone & array of zones created.
 struct garden_zone
 {
     int hygrometer;
+    int hygro_power;
     bool hygro_reading;
-    int relay;
-    //bool relay_power;
+    int solenoid;
 } garden_zones[QTY_ZONES];
 
 ////////////////FUNCTION DECLARATIONS///////////////////
 void init_pump();
-void init_hygro_power();
+void init_light();
+void init_hygro_power(int hygro_power_id);
 void init_hygros(int hygro_id);
-void init_relays(int relay_id);
+void init_solenoids(int relay_id);
 void init_zones();
 void init_system();
 void record_hygros();
@@ -67,15 +76,22 @@ int main()
 /////////////////FUNCTION IMPLEMENTATIONS//////////////
 void init_pump()
 {
-    gpio_init(PUMP_POWER_PIN);
-    gpio_set_dir(PUMP_POWER_PIN, GPIO_OUT);
-    gpio_put(PUMP_POWER_PIN, 1);
+    gpio_init(PUMP_RELAY_PIN);
+    gpio_set_dir(PUMP_RELAY_PIN, GPIO_OUT);
+    gpio_put(PUMP_RELAY_PIN, 1);
 }
 
-void init_hygro_power()
+void init_light()
 {
-    gpio_init(HYGRO_POWER_PIN);
-    gpio_set_dir(HYGRO_POWER_PIN, GPIO_OUT);
+    gpio_init(LIGHT_RELAY_PIN);
+    gpio_set_dir(LIGHT_RELAY_PIN, GPIO_OUT);
+    gpio_put(LIGHT_RELAY_PIN, 1);
+}
+
+void init_hygro_power(int hygro_power_id)
+{
+    gpio_init(hygro_power_id);
+    gpio_set_dir(hygro_power_id, GPIO_OUT);
 }
 
 void init_hygros(int hygro_id)
@@ -85,7 +101,7 @@ void init_hygros(int hygro_id)
     gpio_pull_down(hygro_id);
 }
 
-void init_relays(int relay_id)
+void init_solenoids(int relay_id)
 {
     gpio_init(relay_id);
     gpio_set_dir(relay_id, GPIO_OUT);
@@ -100,10 +116,12 @@ void init_zones()
     {
         //set hygrometers to zones and initialize their pins
         garden_zones[i].hygrometer = hygrometers[i];
+        garden_zones[i].hygro_power = hygro_power[i];
         init_hygros(garden_zones[i].hygrometer);
-        //set relays to zones and initialize their pins
-        garden_zones[i].relay = relays[i];
-        init_relays(garden_zones[i].relay);
+        init_hygro_power(garden_zones[i].hygro_power);
+        //set solenoids to zones and initialize their pins
+        garden_zones[i].solenoid = solenoids[i];
+        init_solenoids(garden_zones[i].solenoid);
     }
 }
 
@@ -112,8 +130,8 @@ void init_system()
 {
     //init pump power pin
     init_pump();
-    //init power pin for hygros
-    init_hygro_power();
+    //init light relay pin
+    init_light();
     //init the zones by setting components to each grow zone
     init_zones();
 }
@@ -130,12 +148,18 @@ void record_hygros()
 void run_read_cycle()
 {
     //power up the hygrometers and let them stablize
-    gpio_put(HYGRO_POWER_PIN, 1);
-    sleep_ms(250);
+    for (int i = 0; i < QTY_ZONES; ++i)
+    {
+        gpio_put(garden_zones[i].hygro_power, 1);
+    }
+    sleep_ms(500);
     //read and save hygro values into garden zone struct
     record_hygros();
     //power down hygro until next reading
-    gpio_put(HYGRO_POWER_PIN, 0);
+    for (int i = 0; i < QTY_ZONES; ++i)
+    {
+        gpio_put(garden_zones[i].hygro_power, 0);
+    }
 }
 
 void run_water_cycle()
@@ -146,13 +170,13 @@ void run_water_cycle()
     {
         if (garden_zones[i].hygro_reading)
         {
-            gpio_put(garden_zones[i].relay, 0);
+            gpio_put(garden_zones[i].solenoid, 0);
             needs_water = true;
             //printf("Watering zone %u\n", i);  //serial output test function
         }
         else
         {
-            gpio_put(garden_zones[i].relay, 1);
+            gpio_put(garden_zones[i].solenoid, 1);
             //printf("Zone %u okay\n", i);  //serial output test function
         }
     }
@@ -161,17 +185,17 @@ void run_water_cycle()
     if (needs_water)
     {
         //start pump
-        gpio_put(PUMP_POWER_PIN, 0);
+        gpio_put(PUMP_RELAY_PIN, 0);
         //let the water run for a few seconds
         sleep_ms(4000);
         // turn off pump
-        gpio_put(PUMP_POWER_PIN, 1);
+        gpio_put(PUMP_RELAY_PIN, 1);
     }
 
     // close all solenoids
     for (int i = 0; i < QTY_ZONES; ++i)
     {
-        gpio_put(relays[i], 1);
+        gpio_put(solenoids[i], 1);
     }
 }
 
