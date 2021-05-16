@@ -1968,6 +1968,72 @@ CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_co
 CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
 CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\common\pico_base\include\pico\error.h
 CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_malloc\include\pico\malloc.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\common\pico_sync\include\pico\mutex.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\common\pico_sync\include\pico\lock_core.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_sync\include\hardware\sync.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_base\include\hardware\address_mapped.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\addressmap.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\sio.h
+
+
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\common\pico_stdlib\include\pico\stdlib.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\common\pico_base\include\pico.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\common\pico_base\include\pico\types.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\common\pico_base\include\pico\assert.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\lib\gcc\arm-none-eabi\10.2.1\include\stdbool.h"
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\arm-none-eabi\include\assert.h"
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\arm-none-eabi\include\_ansi.h"
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\arm-none-eabi\include\newlib.h"
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\arm-none-eabi\include\_newlib_version.h"
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\arm-none-eabi\include\sys\config.h"
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\arm-none-eabi\include\machine\ieeefp.h"
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\arm-none-eabi\include\sys\features.h"
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\lib\gcc\arm-none-eabi\10.2.1\include\stdint.h"
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\arm-none-eabi\include\stdint.h"
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\arm-none-eabi\include\machine\_default_types.h"
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\arm-none-eabi\include\sys\_intsup.h"
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\arm-none-eabi\include\sys\_stdint.h"
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\lib\gcc\arm-none-eabi\10.2.1\include\stddef.h"
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: generated\pico_base\pico\version.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\common\pico_base\include\pico\config.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: generated\pico_base\pico\config_autogen.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\boards\include\boards\pico.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\arm-none-eabi\include\sys\cdefs.h"
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\common\pico_base\include\pico\types.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\common\pico_base\include\pico\error.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio\include\pico\stdio.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\common\pico_time\include\pico\time.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_timer\include\hardware\timer.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\timer.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_base\include\hardware\address_mapped.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\addressmap.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\timer.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_gpio\include\hardware\gpio.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\sio.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\sio.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\interp.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\padsbank0.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\pads_bank0.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_uart\include\hardware\uart.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\uart.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\uart.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\include\pico\stdio_usb.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\include\pico\multicore.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\common\pico_sync\include\pico\sync.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\common\pico_sync\include\pico\sem.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\common\pico_sync\include\pico\lock_core.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_sync\include\hardware\sync.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\common\pico_sync\include\pico\mutex.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\common\pico_sync\include\pico\critical_section.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_irq\include\hardware\irq.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\intctrl.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\m0plus.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\scb.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\psm.h
+CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_claim\include\hardware\claim.h
 
 
 CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj: C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_platform\platform.c
@@ -2958,6 +3024,8 @@ C:\Users\daven\Documents\Pico\pico-sdk\src\common\pico_util\include\pico\util\qu
 
 C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_claim\claim.c:
 
+C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c:
+
 C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_claim\include\hardware\claim.h:
 
 C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c:
@@ -3025,6 +3093,10 @@ C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.
 C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c:
 
 C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_malloc\include\pico\malloc.h:
+
+C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_multicore\include\pico\multicore.h:
+
+C:\Users\daven\Documents\Pico\pico-sdk\src\common\pico_sync\include\pico\sync.h:
 
 C:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_platform\platform.c:
 

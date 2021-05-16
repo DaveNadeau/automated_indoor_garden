@@ -48,4 +48,10 @@ CMakeFiles\watering_system.dir\C_\Users\daven\Documents\Pico\pico-sdk\src\rp2_co
  C\:\Users\daven\Documents\Pico\pico-sdk\src\common\pico_base\include/pico/types.h \
  C\:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/platform_defs.h \
  C\:\Users\daven\Documents\Pico\pico-sdk\src\common\pico_base\include/pico/error.h \
- C\:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_malloc\include/pico/malloc.h
+ C\:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\pico_malloc\include/pico/malloc.h \
+ C\:\Users\daven\Documents\Pico\pico-sdk\src\common\pico_sync\include/pico/mutex.h \
+ C\:\Users\daven\Documents\Pico\pico-sdk\src\common\pico_sync\include/pico/lock_core.h \
+ C\:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_sync\include/hardware/sync.h \
+ C\:\Users\daven\Documents\Pico\pico-sdk\src\rp2_common\hardware_base\include/hardware/address_mapped.h \
+ C\:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/addressmap.h \
+ C\:\Users\daven\Documents\Pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/sio.h

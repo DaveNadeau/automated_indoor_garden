@@ -22,6 +22,15 @@
 #define PUMP_RELAY_PIN 12
 #define LIGHT_RELAY_PIN 11
 
+//timing variables for reading and watering
+#define MAIN_SLEEP 10000
+#define HYGRO_READ_DELAY 500
+#define WATERING_DELAY 4000
+
+//timing variables for lighting
+#define LIGHT_ON_DELAY 20000
+#define LIGHT_OFF_DELAY 5000
+
 //arrays of hygrometer's read and power pins
 int hygrometers[QTY_ZONES] = {DIGITAL_HYGRO_PIN1, DIGITAL_HYGRO_PIN2, DIGITAL_HYGRO_PIN3};
 int hygro_power[QTY_ZONES] = {HYGRO_POWER1, HYGRO_POWER2, HYGRO_POWER3};
@@ -49,15 +58,16 @@ void init_system();
 void record_hygros();
 void run_read_cycle();
 void run_water_cycle();
-
-//test functions
-//
+void run_light_cycle();
 
 ////////////////MAIN PROGRAM (CORE 0)/////////////////
 int main()
 {
     stdio_init_all();
     printf("Indoor herb garden v 1.0\n");
+
+    //use second core for light timing/function
+    multicore_launch_core1(run_light_cycle);
 
     //initialize power, components, and zones
     init_system();
@@ -69,7 +79,7 @@ int main()
         //water if necessary
         run_water_cycle();
         //sleep until next reading
-        sleep_ms(10000);
+        sleep_ms(MAIN_SLEEP);
     }
 }
 
@@ -130,8 +140,6 @@ void init_system()
 {
     //init pump power pin
     init_pump();
-    //init light relay pin
-    init_light();
     //init the zones by setting components to each grow zone
     init_zones();
 }
@@ -152,7 +160,7 @@ void run_read_cycle()
     {
         gpio_put(garden_zones[i].hygro_power, 1);
     }
-    sleep_ms(500);
+    sleep_ms(HYGRO_READ_DELAY);
     //read and save hygro values into garden zone struct
     record_hygros();
     //power down hygro until next reading
@@ -187,7 +195,7 @@ void run_water_cycle()
         //start pump
         gpio_put(PUMP_RELAY_PIN, 0);
         //let the water run for a few seconds
-        sleep_ms(4000);
+        sleep_ms(WATERING_DELAY);
         // turn off pump
         gpio_put(PUMP_RELAY_PIN, 1);
     }
@@ -196,6 +204,19 @@ void run_water_cycle()
     for (int i = 0; i < QTY_ZONES; ++i)
     {
         gpio_put(solenoids[i], 1);
+    }
+}
+
+void run_light_cycle()
+{
+    //init light relay pin
+    init_light();
+    while (1)
+    {
+        gpio_put(LIGHT_RELAY_PIN, 0);
+        sleep_ms(LIGHT_ON_DELAY);
+        gpio_put(LIGHT_RELAY_PIN, 1);
+        sleep_ms(LIGHT_OFF_DELAY);
     }
 }
 
