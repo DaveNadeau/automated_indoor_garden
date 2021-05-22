@@ -1202,9 +1202,9 @@ Discarded input sections
                 0x00000000       0x24 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .rodata.__func__.3
                 0x00000000       0x15 CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
- .text          0x00000000        0x0 C:\Users\daven\AppData\Local\Temp\ccU7Jpr9.o
- .data          0x00000000        0x0 C:\Users\daven\AppData\Local\Temp\ccU7Jpr9.o
- .bss           0x00000000        0x0 C:\Users\daven\AppData\Local\Temp\ccU7Jpr9.o
+ .text          0x00000000        0x0 C:\Users\daven\AppData\Local\Temp\cccLjJF9.o
+ .data          0x00000000        0x0 C:\Users\daven\AppData\Local\Temp\cccLjJF9.o
+ .bss           0x00000000        0x0 C:\Users\daven\AppData\Local\Temp\cccLjJF9.o
  .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-calloc.o)
@@ -1398,7 +1398,7 @@ LOAD c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\daven\AppData\Local\Temp\ccU7Jpr9.o
+ .boot2         0x10000000      0x100 C:\Users\daven\AppData\Local\Temp\cccLjJF9.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -2917,7 +2917,7 @@ LOAD CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/t
 LOAD CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 LOAD CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 LOAD CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
-LOAD C:\Users\daven\AppData\Local\Temp\ccU7Jpr9.o
+LOAD C:\Users\daven\AppData\Local\Temp\cccLjJF9.o
 LOAD c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -3032,7 +3032,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000077c       0x2c CMakeFiles/watering_system.dir/C_/Users/daven/Documents/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .ARM.attributes
-                0x000007a8       0x22 C:\Users\daven\AppData\Local\Temp\ccU7Jpr9.o
+                0x000007a8       0x22 C:\Users\daven\AppData\Local\Temp\cccLjJF9.o
  .ARM.attributes
                 0x000007ca       0x1e c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes

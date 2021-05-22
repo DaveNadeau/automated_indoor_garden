@@ -7,13 +7,13 @@
 
 /////PIN ASSIGNMENTS/////
 //Hygrometer power pin assignments
-#define HYGRO_POWER1 19
-#define HYGRO_POWER2 20
-#define HYGRO_POWER3 21
+#define HYGRO_POWER1 20
+#define HYGRO_POWER2 18
+#define HYGRO_POWER3 16
 //hygro pin assignments
-#define DIGITAL_HYGRO_PIN1 16
-#define DIGITAL_HYGRO_PIN2 17
-#define DIGITAL_HYGRO_PIN3 18
+#define DIGITAL_HYGRO_PIN1 21
+#define DIGITAL_HYGRO_PIN2 19
+#define DIGITAL_HYGRO_PIN3 17
 //solenoid pin assignments
 #define SOLENOID1 15
 #define SOLENOID2 14
