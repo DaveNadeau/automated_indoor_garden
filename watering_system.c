@@ -23,13 +23,13 @@
 #define LIGHT_RELAY_PIN 11
 
 //timing variables for reading and watering
-#define MAIN_SLEEP 10000
-#define HYGRO_READ_DELAY 500
-#define WATERING_DELAY 4000
+#define MAIN_SLEEP 10800000   //3 hrs
+#define HYGRO_READ_DELAY 1000 //1 sec
+#define WATERING_DELAY 30000  //30 sec
 
 //timing variables for lighting
-#define LIGHT_ON_DELAY 20000
-#define LIGHT_OFF_DELAY 5000
+#define LIGHT_ON_DELAY 57600000  //16 hrs
+#define LIGHT_OFF_DELAY 28800000 //8 hrs
 
 //arrays of hygrometer's read and power pins
 int hygrometers[QTY_ZONES] = {DIGITAL_HYGRO_PIN1, DIGITAL_HYGRO_PIN2, DIGITAL_HYGRO_PIN3};
